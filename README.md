@@ -8,7 +8,6 @@
    a. git init
       ```
       $ git init
-
       Initialized empty Git repository in C:/Users/yuun083/Desktop/UP02_PR5/.git/
       ```
   b. Создаём файл .gitignore и вводим туда текст, данный в практической работе. 
