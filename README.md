@@ -53,7 +53,7 @@
       $ git config --system --unset credential.helper
       ```
    j. Для GOGS
-   ```
-   $ git config --global http.postBuffer 157286400
-   ```
+      ```
+      $ git config --global http.postBuffer 157286400
+      ```
 5. Создаём в репозитории README.md и записываем команды с возвращаемым результатом.
