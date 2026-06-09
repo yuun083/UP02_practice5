@@ -5,11 +5,14 @@
 2. Нажимаем на "+" в шапке сайта и выбираем "New repository". В нвовом окне вводим имя репозитория и убираем добавление README.md.
 3. Создаём на компьютере новый каталог(папку).
 4. Выполняем команды:
+   
    a. git init
+   
       ```
       $ git init
       Initialized empty Git repository in C:/Users/yuun083/Desktop/UP02_PR5/.git/
       ```
+      
   b. Создаём файл .gitignore и вводим туда текст, данный в практической работе. 
   
   c. git config user.name, git config user. email
