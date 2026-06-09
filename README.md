@@ -17,7 +17,7 @@
       $ git config user.email jjjaa9099@gmail.com
       ```
    d. Отключение проверки сертификата
-      ```
+      
       $ git config --global http.sslVerify false
       ```
    e. git add
