@@ -11,13 +11,14 @@
       Initialized empty Git repository in C:/Users/yuun083/Desktop/UP02_PR5/.git/
       ```
   b. Создаём файл .gitignore и вводим туда текст, данный в практической работе. 
+  
   c. git config user.name, git config user. email
       ```
       $ git config user.name "ataran"
       $ git config user.email jjjaa9099@gmail.com
       ```
    d. Отключение проверки сертификата
-      
+      ```
       $ git config --global http.sslVerify false
       ```
    e. git add
