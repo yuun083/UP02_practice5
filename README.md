@@ -17,36 +17,36 @@
   
   c. git config user.name, git config user. email
   
-      ```
+      
       $ git config user.name "ataran"
       $ git config user.email jjjaa9099@gmail.com
-      ```
+      
    d. Отключение проверки сертификата
    
-      ```
+      
       $ git config --global http.sslVerify false
-      ```
+      
    e. git add
    
-      ```
+      
       $ git add .
-      ```
+      
    f. git commit
    
-      ```
+      
       $ git commit -m "Initial commit"
       [master (root-commit) 64768e7] Initial commit
       1 file changed, 9 insertions(+)
       create mode 100644 .gitignore
-      ```
+      
    g. git remote add
    
-      ```
+      
       $ git remote add origin https://github.com/yuun083/UP02_practice5.git
-      ```
+      
    h. git push -u
    
-      ```
+      
       $ git push -u origin master
       Enumerating objects: 3, done.
       Counting objects: 100% (3/3), done.
@@ -57,14 +57,13 @@
       To https://github.com/yuun083/UP02_practice5.git
        * [new branch]      master -> master
       branch 'master' set up to track 'origin/master'.
-      ```
+      
    i. Удаление credential manager
    
-      ```
       $ git config --system --unset credential.helper
-      ```
+      
    j. Для GOGS
-      ```
+      
       $ git config --global http.postBuffer 157286400
-      ```
+      
 5. Создаём в репозитории README.md и записываем команды с возвращаемым результатом.
